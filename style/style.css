@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  border: 1px solid black;
+}
+
+body {
+  width: 1440px;
+  background-color: bisque;
+}
+/*# sourceMappingURL=style.css.map */
