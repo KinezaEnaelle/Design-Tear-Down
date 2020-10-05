@@ -301,4 +301,21 @@ header {
   margin-top: 12px;
   background-color: #696969;
 }
+
+.middle-link {
+  display: block;
+  border: 2px solid black;
+  width: 226px;
+  height: 39px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.mid-link {
+  border: 2px solid red;
+  width: 218px;
+  height: 18px;
+  float: right;
+  text-align: right;
+}
 /*# sourceMappingURL=style.css.map */
