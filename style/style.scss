@@ -63,32 +63,31 @@ header {
 
 //Main Section
 
-.article1{
+.article1 {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 100% 100%;
+  grid-template-rows: 694px 694px;
 }
-.article1-item{
+.article1-item {
+  position: relative;
   width: 100%;
   padding: 20px;
   height: 694px;
-  background-color: 
-  #999966;
+  background-color: #999966;
 }
-.image-container{
+.image-container {
   display: flex;
   // justify-content: space-around;
   margin: 40px;
-
 }
-.image{
+.image {
   float: left;
   width: 70px;
   height: 55px;
   border: 3px solid white;
   border-radius: 10px;
 }
-.image-text{
+.image-text {
   display: block;
   width: 100px;
   height: 20px;
@@ -98,9 +97,8 @@ header {
   // padding: 20px;
   margin-left: 15px;
   margin-top: 12px;
-
 }
-.heading1{
+.heading1 {
   display: block;
   width: 500px;
   height: 40px;
@@ -108,22 +106,91 @@ header {
   margin-left: 35px;
   margin-top: 5px;
 }
-.comment-section{
+.comment-section {
   display: flex;
   flex-direction: row;
   margin-left: 35px;
   margin-top: 35px;
 }
-.comment1{
+.comment1 {
   display: block;
   width: 50px;
   height: 40px;
   border: 1px solid gold;
   margin-right: 30px;
 }
-.arrow{
+.arrow {
+  position: absolute;
   display: block;
   width: 50px;
   height: 40px;
   margin-top: 500px;
+  bottom: 0;
+  left: 0;
+}
+
+//ARTICLE2
+
+.article2 {
+  width: 100%;
+  height: 1800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 600px 600px 600px;
+}
+
+.article2-item {
+  position: relative;
+  background: grey;
+  height: 600px;
+}
+
+.toptext {
+  width: 100px;
+  height: 30px;
+  background-color: honeydew;
+}
+
+.toplink {
+  margin: 15px 0 35px 0;
+}
+.toplink-text {
+  display: block;
+  width: 340px;
+  height: 30px;
+  background: rgb(202, 228, 202);
+  margin-bottom: 10px;
+}
+
+.middletext {
+  display: block;
+  width: 135px;
+  height: 20px;
+  background: rgb(221, 216, 219);
+}
+
+.bottomtext {
+  margin-top: 30px;
+  width: 350px;
+  height: 250px;
+  background: rgb(136, 133, 134);
+}
+
+.bottomtext-item {
+  display: inline-block;
+  width: 330px;
+  height: 30px;
+  background: rgb(99, 97, 98);
+}
+
+.arrow2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgb(56, 49, 53);
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
