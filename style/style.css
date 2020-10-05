@@ -72,4 +72,82 @@ header {
 .zover {
   z-index: 7;
 }
+
+.article1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+}
+
+.article1-item {
+  width: 100%;
+  padding: 20px;
+  height: 694px;
+  background-color: #999966;
+}
+
+.image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px;
+}
+
+.image {
+  float: left;
+  width: 70px;
+  height: 55px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.image-text {
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 2px solid hotpink;
+  font-size: 10px;
+  clear: left;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+.heading1 {
+  display: block;
+  width: 500px;
+  height: 40px;
+  border: 1px solid violet;
+  margin-left: 35px;
+  margin-top: 5px;
+}
+
+.comment-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+
+.comment1 {
+  display: block;
+  width: 50px;
+  height: 40px;
+  border: 1px solid gold;
+  margin-right: 30px;
+}
+
+.arrow {
+  display: block;
+  width: 50px;
+  height: 40px;
+  margin-top: 650px;
+}
 /*# sourceMappingURL=style.css.map */
