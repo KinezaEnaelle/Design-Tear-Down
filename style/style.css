@@ -78,8 +78,8 @@ header {
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  -ms-grid-rows: 50% 50%;
-      grid-template-rows: 50% 50%;
+  -ms-grid-rows: 100% 100%;
+      grid-template-rows: 100% 100%;
 }
 
 .article1-item {
@@ -148,6 +148,6 @@ header {
   display: block;
   width: 50px;
   height: 40px;
-  margin-top: 650px;
+  margin-top: 500px;
 }
 /*# sourceMappingURL=style.css.map */

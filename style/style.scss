@@ -66,7 +66,7 @@ header {
 .article1{
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 100% 100%;
 }
 .article1-item{
   width: 100%;
@@ -125,5 +125,5 @@ header {
   display: block;
   width: 50px;
   height: 40px;
-  margin-top: 650px;
+  margin-top: 500px;
 }
