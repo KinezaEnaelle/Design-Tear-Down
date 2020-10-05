@@ -160,8 +160,9 @@ header {
   height: 1800px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
   -ms-grid-rows: 600px 600px 600px;
       grid-template-rows: 600px 600px 600px;
 }
@@ -169,6 +170,15 @@ header {
 .article2-item {
   position: relative;
   background: grey;
+  height: 600px;
+}
+
+.wideone {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  position: relative;
+  background: #f1aeae;
   height: 600px;
 }
 
