@@ -74,6 +74,7 @@ header {
 }
 
 .article1 {
+  position: relative;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -82,10 +83,63 @@ header {
       grid-template-rows: 694px 694px;
 }
 
+.article1-center {
+  position: absolute;
+  top: 50px;
+  left: 35%;
+  width: 395px;
+  height: 108px;
+}
+
+.article1-right {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  width: 235px;
+  height: 65px;
+}
+
+.article1-right-img {
+  width: 65px;
+  height: 65px;
+  background: hotpink;
+  border-radius: 15px;
+}
+
+.article1-right-btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.article1-center-top {
+  background: white;
+  width: 100%;
+  height: 58px;
+}
+
+.article1-center-bottom {
+  width: 145px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  background: white;
+}
+
 .article1-item {
   position: relative;
   width: 100%;
-  padding: 20px;
+  padding: 190px 20px 20px 20px;
   height: 694px;
   background-color: #999966;
 }
@@ -177,9 +231,44 @@ header {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 3;
-  position: relative;
   background: #f1aeae;
   height: 600px;
+}
+
+.advertcontainer-image {
+  display: block;
+  margin: 50px auto 0 auto;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #808080;
+  border-radius: 50%;
+  background-color: #696969;
+}
+
+.advertcenter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advert-heading {
+  border: 2px solid #808080;
+  width: 500px;
+  height: 40px;
+  margin-top: 46px;
+  margin-bottom: 25px;
+  background-color: #696969;
 }
 
 .toptext {
