@@ -4,23 +4,6 @@ body {
   overflow-x: hidden;
 }
 
-//EFFECTS
-
-.bgrone {
-  background-color: rgb(98, 100, 96);
-}
-
-.bgr2 {
-  background-color: rgb(110, 112, 107);
-}
-
-.bgr3 {
-  background-color: rgb(66, 70, 63);
-}
-
-.bgr4 {
-  background: rgb(84, 87, 81);
-}
 //HEADER PART WITH NAVBAR
 header {
   width: 100%;
@@ -156,11 +139,6 @@ header {
   height: 55px;
   border: 3px solid white;
   border-radius: 10px;
-  transform: rotate(-20deg);
-
-  &:hover {
-    transform: none;
-  }
 }
 .image-text {
   display: block;
@@ -445,10 +423,17 @@ header {
   margin-top: 100px;
 }
 
+.personimg {
+  width: 250px;
+  height: 250px;
+  background: rgb(173, 172, 168);
+}
+
 .personweek {
   display: flex;
   width: 100%;
   margin: 60px 70px 100px 40px;
+<<<<<<< HEAD
 
   .personimg {
     width: 250px;
@@ -474,6 +459,74 @@ header {
       height: 16px;
       margin-bottom: 15px;
       background: rgb(75, 74, 69);
+=======
+
+  .person-right {
+    display: inline-block;
+    margin-left: 40px;
+    width: 855px;
+
+    .person-right-heading {
+      display: inline-block;
+      width: 213px;
+      height: 20px;
+      background: rgb(71, 71, 70);
+      margin-bottom: 40px;
+    }
+
+    .person-right-text {
+      width: 850px;
+      height: 16px;
+      margin-bottom: 15px;
+      background: rgb(75, 74, 69);
+    }
+  }
+}
+
+.designbook {
+  width: 100%;
+  height: 395px;
+  background: rgb(122, 124, 121);
+  margin-top: 100px;
+  margin-bottom: 85px;
+
+  .designbookright {
+    float: right;
+    width: 250px;
+    height: 350px;
+    background: rgb(53, 52, 52);
+    margin-right: 180px;
+    margin-top: -400px;
+  }
+
+  .designbookleft {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+    .designpar {
+      margin-top: 10px;
+      display: inline-block;
+      width: 600px;
+      height: 30px;
+      background: rgb(156, 155, 155);
+    }
+
+    .designlink {
+      display: inline-block;
+      height: 45px;
+      width: 400px;
+      background: rgb(54, 50, 50);
+      margin-top: 10px;
+    }
+
+    .designbtn {
+      width: 350px;
+      height: 66px;
+      background: wheat;
+      border-radius: 10px;
+      margin-top: 53px;
+>>>>>>> 9bc93fb8e26ebc20a156cc864e67ba40c6378200
     }
   }
 }
@@ -490,6 +543,7 @@ header {
 
     .community-item-right {
       margin-left: 20px;
+<<<<<<< HEAD
     }
 
     .community-img {
@@ -498,6 +552,16 @@ header {
       background: rgb(168, 167, 164);
     }
 
+=======
+    }
+
+    .community-img {
+      width: 95px;
+      height: 95px;
+      background: rgb(168, 167, 164);
+    }
+
+>>>>>>> 9bc93fb8e26ebc20a156cc864e67ba40c6378200
     .image-container {
       display: flex;
     }
@@ -632,3 +696,46 @@ header {
   width: 393px;
   height: 21px;
 }
+<<<<<<< HEAD
+=======
+
+//EFFECTS
+
+.bgrone {
+  background-color: rgb(98, 100, 96);
+}
+
+.bgr2 {
+  background-color: rgb(110, 112, 107);
+}
+
+.bgr3 {
+  background-color: rgb(66, 70, 63);
+}
+
+.bgr4 {
+  background: rgb(84, 87, 81);
+}
+
+.trans {
+  transform: rotate(-20deg);
+
+  &:hover {
+    transform: none;
+  }
+}
+
+.fixed {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 70px;
+  height: 70px;
+  background: #3b3636;
+  color: aliceblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> 9bc93fb8e26ebc20a156cc864e67ba40c6378200
