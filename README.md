@@ -21,7 +21,7 @@ See the source page below:
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://igors78.github.io/Design-Teardown/)
 
 ## Getting Started
 
@@ -41,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 - Open index.html file in any modern browser
 ### Run tests
-- Tests passed can be found here ()
+- Tests passed can be found here (https://github.com/Igors78/Design-Teardown/pulls)
 ### Deployment
 - Page deployed through the Github pages service and can be viewed through the Live Demo Link (see above)
 
@@ -54,17 +54,17 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@oleinikovs](https://twitter.com/oleinikovs)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/igors-oleinikovs-17a10958/)
 
-👤 **Adesuyi Adetola**
+👤 **Iris Enaelle Kineza**
 
-- GitHub: [@Arinpe](https://github.com/Arinpe)
-- Twitter: [@_detola_](https://twitter.com/_detola_)
-- LinkedIn: [Adesuyi Adetola](https://www.linkedin.com/in/adesuyi-adetola-7b4451111/)
+- GitHub: [@KinezaEnaelle](https://github.com/KinezaEnaelle)
+- Twitter: [@IKineza](https://twitter.com/IKineza)
+- LinkedIn: [Iris Enaelle Kineza](https://www.linkedin.com/in/iris-enaelle-kineza-25a676187/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Igors78/Design-Teardown/issues).
 
 ## Show your support
 
