@@ -614,6 +614,7 @@ header {
 .guide {
   display: -ms-grid;
   display: grid;
+  border: 2px solid black;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
   -ms-grid-rows: 500px 980px;
