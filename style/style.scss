@@ -462,7 +462,7 @@ header {
 .designbook {
   width: 100%;
   height: 395px;
-  background: rgb(122, 124, 121);
+  background:rgb(204, 204, 204);
   margin-top: 100px;
   margin-bottom: 85px;
 
@@ -470,7 +470,7 @@ header {
     float: right;
     width: 250px;
     height: 350px;
-    background: rgb(76, 75, 75);
+    background: rgb(128, 128, 128);
     margin-right: 180px;
     margin-top: -400px;
   }
@@ -485,21 +485,21 @@ header {
       display: inline-block;
       width: 600px;
       height: 30px;
-      background: rgb(76, 75, 75);
+      background: rgb(128, 128, 128);
     }
 
     .designlink {
       display: inline-block;
       height: 45px;
       width: 400px;
-      background: rgb(54, 50, 50);
+      background: rgb(128, 128, 128);
       margin-top: 10px;
     }
 
     .designbtn {
       width: 350px;
       height: 66px;
-      background: wheat;
+      background:  rgb(105, 105, 105);
       border-radius: 10px;
       margin-top: 53px;
     }
@@ -557,7 +557,6 @@ header {
 
 .guide {
   display: grid;
-  // border: 2px solid black;
   grid-template-columns: 50% 50%;
   grid-template-rows: 500px 980px;
   width: 100%;
@@ -569,21 +568,21 @@ header {
 .javascript-guide {
   display: flex;
   flex-direction: column;
-  border: 2px solid rgb(218, 218, 218);
+  border: 2px solid rgb(76, 75, 75);
   width: 700px;
   height: 100%;
   border-radius: 15px;
   padding-left: 50px;
-  background: rgb(218, 218, 218);
+  background: rgb(76, 75, 75);
 }
 
 .newsletter-guide {
   height: 100%;
   width: 700px;
-  border: 2px solid rgb(218, 218, 218);
+  border: 2px solid rgb(76, 75, 75);
   border-radius: 10px;
   padding-left: 50px;
-  background: rgb(218, 218, 218);
+  background: rgb(76, 75, 75);
 }
 
 .guide-content {
@@ -615,7 +614,7 @@ header {
 .guide-button {
   width: 409px;
   height: 65px;
-  background: rgb(78, 78, 77);
+  background: rgb(204, 204, 204);
   margin-top: 40px;
   margin-bottom: 40px;
 }
