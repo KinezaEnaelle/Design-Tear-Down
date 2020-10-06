@@ -1,6 +1,6 @@
 body {
   width: 1440px;
-  background-color: rgb(243, 236, 227);
+  background-color: rgb(218, 218, 218);
   overflow-x: hidden;
 }
 
@@ -287,18 +287,21 @@ header {
 .white-arrow {
   color: rgb(211, 211, 211);
 }
+
+// SMASHING SECTION
+
 .smashing-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 3px solid #a9a9a9;
+  border: 3px solid rgb(173, 173, 173);
   border-radius: 10px;
   margin-top: 45px;
   width: 1287px;
   height: 650px;
   margin-left: 90px;
-  background-color: #a9a9a9;
+  background-color: rgb(173, 173, 173);
 }
 
 .smashing-image {
@@ -310,42 +313,42 @@ header {
 }
 
 .smashing-heading {
-  border: 2px solid #808080;
+  border: 2px solid rgb(105, 105, 105);
   width: 440px;
   height: 37px;
   margin-top: 70px;
   margin-bottom: 25px;
-  background-color: #696969;
+  background-color: rgb(105, 105, 105);
 }
 
 .smashing-paragraph1 {
-  border: 2px solid #808080;
+  border: 2px solid rgb(105, 105, 105);
   width: 575px;
   height: 19px;
   margin-bottom: 10px;
-  background-color: #696969;
+  background-color: rgb(105, 105, 105);
 }
 .smashing-paragraph2 {
-  border: 2px solid #808080;
+  border: 2px solid rgb(105, 105, 105);
   width: 591px;
   height: 19px;
   margin-top: 10px;
-  background-color: #696969;
+  background-color: rgb(105, 105, 105);
 }
 .smashing-button {
-  border: 2px solid #808080;
+  border: 2px solid rgb(105, 105, 105);
   width: 310px;
   height: 59px;
   border-radius: 5px;
   margin-top: 60px;
-  background-color: #696969;
+  background-color: rgb(105, 105, 105);
 }
 .smashing-paragraph3 {
-  border: 2px solid #808080;
+  border: 2px solid rgb(105, 105, 105);
   width: 216px;
   height: 19px;
   margin-top: 12px;
-  background-color: #696969;
+  background-color: rgb(105, 105, 105);
 }
 .middle-link {
   display: block;
@@ -353,7 +356,7 @@ header {
   height: 39px;
   margin: 0 auto;
   margin-top: 100px;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid rgb(76, 75, 75);
 }
 .mid-link {
   width: 218px;
@@ -369,10 +372,10 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 3px solid #a9a9a9;
+  border: 3px solid rgb(173, 173, 173);
   width: 100%;
   height: 950px;
-  background-color: #a9a9a9;
+  background-color:rgb(173, 173, 173);
   clear: both;
 }
 
@@ -426,7 +429,7 @@ header {
 .personimg {
   width: 250px;
   height: 250px;
-  background: rgb(173, 172, 168);
+  background: rgb(105, 105, 105);
 }
 
 .personweek {
@@ -443,7 +446,7 @@ header {
       display: inline-block;
       width: 213px;
       height: 20px;
-      background: rgb(71, 71, 70);
+      background: rgb(128, 128, 128);
       margin-bottom: 40px;
     }
 
@@ -451,7 +454,7 @@ header {
       width: 850px;
       height: 16px;
       margin-bottom: 15px;
-      background: rgb(75, 74, 69);
+      background: rgb(128, 128, 128);
     }
   }
 }
@@ -467,7 +470,7 @@ header {
     float: right;
     width: 250px;
     height: 350px;
-    background: rgb(53, 52, 52);
+    background: rgb(76, 75, 75);
     margin-right: 180px;
     margin-top: -400px;
   }
@@ -482,7 +485,7 @@ header {
       display: inline-block;
       width: 600px;
       height: 30px;
-      background: rgb(156, 155, 155);
+      background: rgb(76, 75, 75);
     }
 
     .designlink {
@@ -510,7 +513,7 @@ header {
   gap: 20px;
 
   .community-item {
-    background: rgb(182, 173, 139);
+    background: rgb(76, 75, 75);
     width: 100%;
 
     .community-item-right {
@@ -520,7 +523,7 @@ header {
     .community-img {
       width: 95px;
       height: 95px;
-      background: rgb(168, 167, 164);
+      background: rgb(128, 128, 128);
     }
 
     .image-container {
@@ -531,14 +534,14 @@ header {
       display: block;
       width: 256px;
       height: 25px;
-      background: rgb(73, 70, 59);
+      background:rgb(173, 173, 173);
     }
 
     .community-heading {
       display: block;
       width: 180px;
       height: 30px;
-      background: rgb(77, 73, 57);
+      background: rgb(211, 211, 211);
       margin-top: 20px;
     }
 
@@ -546,7 +549,7 @@ header {
       display: block;
       width: 220px;
       height: 20px;
-      background: rgb(70, 67, 59);
+      background: rgb(128, 128, 128);
       margin: 15px 0 0 160px;
     }
   }

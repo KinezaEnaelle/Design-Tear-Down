@@ -1,6 +1,6 @@
 body {
   width: 1440px;
-  background-color: #f3ece3;
+  background-color: #dadada;
   overflow-x: hidden;
 }
 
@@ -353,13 +353,13 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 3px solid #a9a9a9;
+  border: 3px solid #adadad;
   border-radius: 10px;
   margin-top: 45px;
   width: 1287px;
   height: 650px;
   margin-left: 90px;
-  background-color: #a9a9a9;
+  background-color: #adadad;
 }
 
 .smashing-image {
@@ -371,45 +371,45 @@ header {
 }
 
 .smashing-heading {
-  border: 2px solid #808080;
+  border: 2px solid dimgray;
   width: 440px;
   height: 37px;
   margin-top: 70px;
   margin-bottom: 25px;
-  background-color: #696969;
+  background-color: dimgray;
 }
 
 .smashing-paragraph1 {
-  border: 2px solid #808080;
+  border: 2px solid dimgray;
   width: 575px;
   height: 19px;
   margin-bottom: 10px;
-  background-color: #696969;
+  background-color: dimgray;
 }
 
 .smashing-paragraph2 {
-  border: 2px solid #808080;
+  border: 2px solid dimgray;
   width: 591px;
   height: 19px;
   margin-top: 10px;
-  background-color: #696969;
+  background-color: dimgray;
 }
 
 .smashing-button {
-  border: 2px solid #808080;
+  border: 2px solid dimgray;
   width: 310px;
   height: 59px;
   border-radius: 5px;
   margin-top: 60px;
-  background-color: #696969;
+  background-color: dimgray;
 }
 
 .smashing-paragraph3 {
-  border: 2px solid #808080;
+  border: 2px solid dimgray;
   width: 216px;
   height: 19px;
   margin-top: 12px;
-  background-color: #696969;
+  background-color: dimgray;
 }
 
 .middle-link {
@@ -418,7 +418,7 @@ header {
   height: 39px;
   margin: 0 auto;
   margin-top: 100px;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #4c4b4b;
 }
 
 .mid-link {
@@ -444,10 +444,10 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 3px solid #a9a9a9;
+  border: 3px solid #adadad;
   width: 100%;
   height: 950px;
-  background-color: #a9a9a9;
+  background-color: #adadad;
   clear: both;
 }
 
@@ -506,7 +506,7 @@ header {
 .personimg {
   width: 250px;
   height: 250px;
-  background: #adaca8;
+  background: dimgray;
 }
 
 .personweek {
@@ -527,7 +527,7 @@ header {
   display: inline-block;
   width: 213px;
   height: 20px;
-  background: #474746;
+  background: gray;
   margin-bottom: 40px;
 }
 
@@ -535,7 +535,7 @@ header {
   width: 850px;
   height: 16px;
   margin-bottom: 15px;
-  background: #4b4a45;
+  background: gray;
 }
 
 .designbook {
@@ -550,7 +550,7 @@ header {
   float: right;
   width: 250px;
   height: 350px;
-  background: #353434;
+  background: #4c4b4b;
   margin-right: 180px;
   margin-top: -400px;
 }
@@ -571,7 +571,7 @@ header {
   display: inline-block;
   width: 600px;
   height: 30px;
-  background: #9c9b9b;
+  background: #4c4b4b;
 }
 
 .designbook .designbookleft .designlink {
@@ -601,7 +601,7 @@ header {
 }
 
 .community .community-item {
-  background: #b6ad8b;
+  background: #4c4b4b;
   width: 100%;
 }
 
@@ -612,7 +612,7 @@ header {
 .community .community-item .community-img {
   width: 95px;
   height: 95px;
-  background: #a8a7a4;
+  background: gray;
 }
 
 .community .community-item .image-container {
@@ -625,14 +625,14 @@ header {
   display: block;
   width: 256px;
   height: 25px;
-  background: #49463b;
+  background: #adadad;
 }
 
 .community .community-item .community-heading {
   display: block;
   width: 180px;
   height: 30px;
-  background: #4d4939;
+  background: lightgray;
   margin-top: 20px;
 }
 
@@ -640,7 +640,7 @@ header {
   display: block;
   width: 220px;
   height: 20px;
-  background: #46433b;
+  background: gray;
   margin: 15px 0 0 160px;
 }
 
