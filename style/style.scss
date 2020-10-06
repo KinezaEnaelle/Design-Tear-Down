@@ -3,6 +3,24 @@ body {
   background-color: rgb(243, 236, 227);
   overflow-x: hidden;
 }
+
+//EFFECTS
+
+.bgrone {
+  background-color: rgb(98, 100, 96);
+}
+
+.bgr2 {
+  background-color: rgb(110, 112, 107);
+}
+
+.bgr3 {
+  background-color: rgb(66, 70, 63);
+}
+
+.bgr4 {
+  background: rgb(84, 87, 81);
+}
 //HEADER PART WITH NAVBAR
 header {
   width: 100%;
@@ -75,7 +93,7 @@ header {
 .article1-center {
   position: absolute;
   top: 50px;
-  left: 35%;
+  left: 36%;
   width: 395px;
   height: 108px;
 }
@@ -96,14 +114,18 @@ header {
 .article1-right-img {
   width: 65px;
   height: 65px;
-  background: hotpink;
-  border-radius: 15px;
+  background: rgb(110, 99, 105);
+  border-radius: 50%;
 }
 
 .article1-right-btn {
   width: 150px;
   height: 40px;
   border-radius: 15px;
+
+  &:hover {
+    background: rgb(106, 107, 105);
+  }
 }
 
 .article1-center-top {
@@ -123,9 +145,9 @@ header {
 .article1-item {
   position: relative;
   width: 100%;
-  padding: 190px 20px 20px 20px;
+  padding: 190px 20px 20px 70px;
   height: 694px;
-  background-color: #999966;
+  //background-color: #999966;
 }
 .image-container {
   display: flex;
@@ -138,12 +160,18 @@ header {
   height: 55px;
   border: 3px solid white;
   border-radius: 10px;
+  transform: rotate(-20deg);
+
+  &:hover {
+    transform: none;
+  }
 }
 .image-text {
   display: block;
   width: 100px;
   height: 20px;
-  border: 2px solid hotpink;
+  //border: 2px solid hotpink;
+  background: rgb(52, 53, 52);
   font-size: 10px;
   clear: left;
   // padding: 20px;
@@ -154,7 +182,8 @@ header {
   display: block;
   width: 500px;
   height: 40px;
-  border: 1px solid violet;
+  //border: 1px solid violet;
+  background: rgb(156, 158, 154);
   margin-left: 35px;
   margin-top: 5px;
 }
@@ -166,10 +195,11 @@ header {
 }
 .comment1 {
   display: block;
-  width: 50px;
+  width: 100px;
   height: 40px;
-  border: 1px solid gold;
-  margin-right: 30px;
+  //border: 1px solid gold;
+  background-color: rgb(221, 224, 214);
+  margin-right: 40px;
 }
 .arrow {
   position: absolute;
@@ -177,8 +207,8 @@ header {
   width: 50px;
   height: 40px;
   margin-top: 500px;
-  bottom: 0;
-  left: 0;
+  bottom: 10px;
+  left: 30px;
 }
 
 //ARTICLE2
@@ -190,11 +220,12 @@ header {
   gap: 10px;
   grid-template-columns: auto auto auto;
   grid-template-rows: 600px 600px 600px;
+  margin-top: 50px;
 }
 
 .article2-item {
   position: relative;
-  background: grey;
+  background: rgba(204, 199, 199, 0.603);
   height: 600px;
 }
 

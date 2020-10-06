@@ -21,7 +21,7 @@ See the source page below:
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://igors78.github.io/Design-Teardown/)
 
 ## Getting Started
 

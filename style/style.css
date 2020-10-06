@@ -4,6 +4,22 @@ body {
   overflow-x: hidden;
 }
 
+.bgrone {
+  background-color: #626460;
+}
+
+.bgr2 {
+  background-color: #6e706b;
+}
+
+.bgr3 {
+  background-color: #42463f;
+}
+
+.bgr4 {
+  background: #545751;
+}
+
 header {
   width: 100%;
 }
@@ -87,7 +103,7 @@ header {
 .article1-center {
   position: absolute;
   top: 50px;
-  left: 35%;
+  left: 36%;
   width: 395px;
   height: 108px;
 }
@@ -113,14 +129,18 @@ header {
 .article1-right-img {
   width: 65px;
   height: 65px;
-  background: hotpink;
-  border-radius: 15px;
+  background: #6e6369;
+  border-radius: 50%;
 }
 
 .article1-right-btn {
   width: 150px;
   height: 40px;
   border-radius: 15px;
+}
+
+.article1-right-btn:hover {
+  background: #6a6b69;
 }
 
 .article1-center-top {
@@ -140,9 +160,8 @@ header {
 .article1-item {
   position: relative;
   width: 100%;
-  padding: 190px 20px 20px 20px;
+  padding: 190px 20px 20px 70px;
   height: 694px;
-  background-color: #999966;
 }
 
 .image-container {
@@ -158,13 +177,20 @@ header {
   height: 55px;
   border: 3px solid white;
   border-radius: 10px;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+.image:hover {
+  -webkit-transform: none;
+          transform: none;
 }
 
 .image-text {
   display: block;
   width: 100px;
   height: 20px;
-  border: 2px solid hotpink;
+  background: #343534;
   font-size: 10px;
   clear: left;
   margin-left: 15px;
@@ -175,7 +201,7 @@ header {
   display: block;
   width: 500px;
   height: 40px;
-  border: 1px solid violet;
+  background: #9c9e9a;
   margin-left: 35px;
   margin-top: 5px;
 }
@@ -194,10 +220,10 @@ header {
 
 .comment1 {
   display: block;
-  width: 50px;
+  width: 100px;
   height: 40px;
-  border: 1px solid gold;
-  margin-right: 30px;
+  background-color: #dde0d6;
+  margin-right: 40px;
 }
 
 .arrow {
@@ -206,8 +232,8 @@ header {
   width: 50px;
   height: 40px;
   margin-top: 500px;
-  bottom: 0;
-  left: 0;
+  bottom: 10px;
+  left: 30px;
 }
 
 .article2 {
@@ -220,11 +246,12 @@ header {
       grid-template-columns: auto auto auto;
   -ms-grid-rows: 600px 600px 600px;
       grid-template-rows: 600px 600px 600px;
+  margin-top: 50px;
 }
 
 .article2-item {
   position: relative;
-  background: grey;
+  background: rgba(204, 199, 199, 0.603);
   height: 600px;
 }
 
