@@ -4,23 +4,6 @@ body {
   overflow-x: hidden;
 }
 
-//EFFECTS
-
-.bgrone {
-  background-color: rgb(98, 100, 96);
-}
-
-.bgr2 {
-  background-color: rgb(110, 112, 107);
-}
-
-.bgr3 {
-  background-color: rgb(66, 70, 63);
-}
-
-.bgr4 {
-  background: rgb(84, 87, 81);
-}
 //HEADER PART WITH NAVBAR
 header {
   width: 100%;
@@ -160,11 +143,6 @@ header {
   height: 55px;
   border: 3px solid white;
   border-radius: 10px;
-  transform: rotate(-20deg);
-
-  &:hover {
-    transform: none;
-  }
 }
 .image-text {
   display: block;
@@ -454,16 +432,16 @@ header {
   margin-top: 100px;
 }
 
+.personimg {
+  width: 250px;
+  height: 250px;
+  background: rgb(173, 172, 168);
+}
+
 .personweek {
   display: flex;
   width: 100%;
   margin: 60px 70px 100px 40px;
-
-  .personimg {
-    width: 250px;
-    height: 250px;
-    background: rgb(173, 172, 168);
-  }
 
   .person-right {
     display: inline-block;
@@ -483,6 +461,53 @@ header {
       height: 16px;
       margin-bottom: 15px;
       background: rgb(75, 74, 69);
+    }
+  }
+}
+
+.designbook {
+  width: 100%;
+  height: 395px;
+  background: rgb(122, 124, 121);
+  margin-top: 100px;
+  margin-bottom: 85px;
+
+  .designbookright {
+    float: right;
+    width: 250px;
+    height: 350px;
+    background: rgb(53, 52, 52);
+    margin-right: 180px;
+    margin-top: -400px;
+  }
+
+  .designbookleft {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+    .designpar {
+      margin-top: 10px;
+      display: inline-block;
+      width: 600px;
+      height: 30px;
+      background: rgb(156, 155, 155);
+    }
+
+    .designlink {
+      display: inline-block;
+      height: 45px;
+      width: 400px;
+      background: rgb(54, 50, 50);
+      margin-top: 10px;
+    }
+
+    .designbtn {
+      width: 350px;
+      height: 66px;
+      background: wheat;
+      border-radius: 10px;
+      margin-top: 53px;
     }
   }
 }
@@ -535,10 +560,7 @@ header {
     }
   }
 }
-<<<<<<< HEAD
-.footer {
-=======
-.guide{
+.guide {
   display: grid;
   // border: 2px solid black;
   grid-template-columns: 50% 50%;
@@ -548,61 +570,59 @@ header {
   grid-gap: 20px;
   margin-bottom: 100px;
 }
-.javascript-guide{
+.javascript-guide {
   display: flex;
   flex-direction: column;
   border: 2px solid olivedrab;
   width: 700px;
   height: 100%;
-  border-radius: 15px; 
+  border-radius: 15px;
   padding-left: 50px;
 }
-.newsletter-guide{
+.newsletter-guide {
   height: 100%;
   width: 700px;
   border: 2px solid blueviolet;
   border-radius: 10px;
   padding-left: 50px;
 }
-.guide-content{
+.guide-content {
   height: 19px;
   width: 206px;
   border: 2px solid hotpink;
   margin-top: 10px;
   margin-bottom: 20px;
-  
 }
-.guide-heading{
+.guide-heading {
   height: 90px;
   width: 265px;
   border: 2px solid yellowgreen;
   margin-bottom: 50px;
 }
-.guide-paragraph{
+.guide-paragraph {
   border: 2px solid rebeccapurple;
   display: inline-block;
   width: 410px;
   height: 23px;
   margin-bottom: 5px;
 }
-.guide-button{
+.guide-button {
   width: 409px;
   height: 65px;
   border: 2px solid gold;
   margin-top: 40px;
 }
-.guide-image{
+.guide-image {
   display: block;
   border: 2px solid red;
-  width:  338px;
+  width: 338px;
   height: 290px;
   border-radius: 50%;
   margin: 0 auto;
 }
 
 // FOOTER
-.footer{
->>>>>>> 65d6c69151b019063d21cbef9e6a1e095f1be4c6
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -645,4 +665,44 @@ header {
   border: 2px splid black;
   width: 393px;
   height: 21px;
+}
+
+//EFFECTS
+
+.bgrone {
+  background-color: rgb(98, 100, 96);
+}
+
+.bgr2 {
+  background-color: rgb(110, 112, 107);
+}
+
+.bgr3 {
+  background-color: rgb(66, 70, 63);
+}
+
+.bgr4 {
+  background: rgb(84, 87, 81);
+}
+
+.trans {
+  transform: rotate(-20deg);
+
+  &:hover {
+    transform: none;
+  }
+}
+
+.fixed {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 70px;
+  height: 70px;
+  background: #3b3636;
+  color: aliceblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
