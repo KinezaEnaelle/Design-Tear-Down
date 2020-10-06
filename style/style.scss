@@ -27,7 +27,7 @@ header {
 .navbar__toplinks {
   width: 120px;
   height: 50px;
-  background:rgb(128, 128, 128);
+  background: rgb(128, 128, 128);
   border-radius: 10px;
 
   &:hover {
@@ -42,7 +42,6 @@ header {
   width: 120px;
   height: 50px;
   background: rgb(105, 105, 105);
-
   border-radius: 10px;
   color: rgb(241, 241, 241);
   padding-right: 10px;
@@ -88,7 +87,6 @@ header {
   align-items: center;
   top: 50px;
   right: 50px;
-  display: flex;
   width: 235px;
   height: 65px;
 }
@@ -130,10 +128,12 @@ header {
   padding: 190px 20px 20px 70px;
   height: 694px;
 }
+
 .image-container {
   display: flex;
   margin: 40px;
 }
+
 .image {
   float: left;
   width: 70px;
@@ -141,6 +141,7 @@ header {
   border: 3px solid rgb(105, 105, 105);
   border-radius: 10px;
 }
+
 .image-text {
   display: block;
   width: 100px;
@@ -151,6 +152,7 @@ header {
   margin-left: 15px;
   margin-top: 12px;
 }
+
 .heading1 {
   display: block;
   width: 500px;
@@ -159,12 +161,14 @@ header {
   margin-left: 35px;
   margin-top: 5px;
 }
+
 .comment-section {
   display: flex;
   flex-direction: row;
   margin-left: 35px;
   margin-top: 35px;
 }
+
 .comment1 {
   display: block;
   width: 100px;
@@ -172,6 +176,7 @@ header {
   background-color: rgb(105, 105, 105);
   margin-right: 40px;
 }
+
 .arrow {
   position: absolute;
   display: block;
@@ -181,6 +186,7 @@ header {
   bottom: 10px;
   left: 30px;
 }
+
 .white {
   color: rgb(105, 105, 105);
 }
@@ -244,6 +250,7 @@ header {
 .toplink {
   margin: 15px 0 35px 0;
 }
+
 .toplink-text {
   display: block;
   width: 340px;
@@ -284,6 +291,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .white-arrow {
   color: rgb(211, 211, 211);
 }
@@ -328,6 +336,7 @@ header {
   margin-bottom: 10px;
   background-color: rgb(105, 105, 105);
 }
+
 .smashing-paragraph2 {
   border: 2px solid rgb(105, 105, 105);
   width: 591px;
@@ -335,6 +344,7 @@ header {
   margin-top: 10px;
   background-color: rgb(105, 105, 105);
 }
+
 .smashing-button {
   border: 2px solid rgb(105, 105, 105);
   width: 310px;
@@ -343,6 +353,7 @@ header {
   margin-top: 60px;
   background-color: rgb(105, 105, 105);
 }
+
 .smashing-paragraph3 {
   border: 2px solid rgb(105, 105, 105);
   width: 216px;
@@ -350,6 +361,7 @@ header {
   margin-top: 12px;
   background-color: rgb(105, 105, 105);
 }
+
 .middle-link {
   display: block;
   width: 226px;
@@ -358,6 +370,7 @@ header {
   margin-top: 100px;
   border-bottom: 3px solid rgb(76, 75, 75);
 }
+
 .mid-link {
   width: 218px;
   height: 25px;
@@ -373,9 +386,8 @@ header {
   justify-content: center;
   align-items: center;
   border: 3px solid rgb(173, 173, 173);
-  width: 100%;
   height: 950px;
-  background-color:rgb(173, 173, 173);
+  background-color: rgb(173, 173, 173);
   clear: both;
 }
 
@@ -387,6 +399,7 @@ header {
   margin-bottom: 10px;
   background-color: #696969;
 }
+
 .shipping-heading {
   border: 2px solid #808080;
   width: 240px;
@@ -395,6 +408,7 @@ header {
   margin-bottom: 25px;
   background-color: #696969;
 }
+
 .shipping-paragraph2 {
   border: 2px solid #808080;
   width: 591px;
@@ -402,6 +416,7 @@ header {
   margin-top: 10px;
   background-color: #696969;
 }
+
 .shipping-button {
   border: 2px solid #808080;
   width: 310px;
@@ -410,6 +425,7 @@ header {
   margin-top: 60px;
   background-color: #696969;
 }
+
 .shipping-paragraph3 {
   border: 2px solid #808080;
   width: 216px;
@@ -417,6 +433,7 @@ header {
   margin-top: 12px;
   background-color: #696969;
 }
+
 .shipping-image {
   border: 2px solid #808080;
   border-radius: 50%;
@@ -462,7 +479,7 @@ header {
 .designbook {
   width: 100%;
   height: 395px;
-  background:rgb(204, 204, 204);
+  background: rgb(204, 204, 204);
   margin-top: 100px;
   margin-bottom: 85px;
 
@@ -499,7 +516,7 @@ header {
     .designbtn {
       width: 350px;
       height: 66px;
-      background:  rgb(105, 105, 105);
+      background: rgb(105, 105, 105);
       border-radius: 10px;
       margin-top: 53px;
     }
@@ -534,7 +551,7 @@ header {
       display: block;
       width: 256px;
       height: 25px;
-      background:rgb(173, 173, 173);
+      background: rgb(173, 173, 173);
     }
 
     .community-heading {
@@ -741,4 +758,3 @@ header {
   justify-content: center;
   align-items: center;
 }
-
